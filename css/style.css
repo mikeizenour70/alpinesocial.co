@@ -1,5 +1,44 @@
-html {
-    font-family: "Quicksand", sans-serif !important;
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
+ height: 100%;
+ padding: 0;
+ font-family: "Quicksand", sans-serif !important;
+}
+
+h1 {
+  color: rgba(255,255,255, 0.8);
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: 'Lato';
+  color: black;
+  text-align: center;
+  padding-top: 20px;
+}
+
+hr {
+  display: block;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h5 {
+  font-family: 'Lato';
+  color: rgba(255,255,255, 0.8);
+}
+
+a {
+  text-decoration: none;
+}
+
+p.footer {
+  color: white;
 }
 
 .nav {
@@ -10,7 +49,10 @@ html {
     list-style-type: none;
     margin-right: 50px;
     float: right;
+    font-family: 'Lato';
+    margin-top: 1%;
 }
+
 
 .nav ul li {
     display: inline;
@@ -27,32 +69,40 @@ html {
 .nav-logo {
     margin-left: 30px;
     width: 180px;
-    height: 100%;
+    user-drag: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
 }
 
-#header {
-        background: url(../image/header-compressor.jpg) no-repeat center center fixed;
-        
-        -webkit-background-size: 100% auto;
-        
-        -moz-background-size: 100% auto;
-        
-        -ms-background-size: 100% auto;
-        
-        -o-background-size: 100% auto;
-        
-        background-size: 100% auto;
-        
-    }
+div.header {
+    background: url(../image/header-compressor.jpg) no-repeat center center fixed;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100%;
+    display: inline-block;
+    height: 100%;
 }
 
 .text-center {
     text-align: center;
 }
 
+.about {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
 #header-text {
-    padding: 200px;
-    padding-bottom: 1000px;
+    padding: 190px;
+    opacity: 1;
+}
+
+#credit {
+  color: white;
 }
 
 .text-vcenter {
@@ -60,15 +110,17 @@ html {
     text-align: center;
     vertical-align: middle;
 }
-footer{
+
+footer {
     width: 100%;
     margin-top: 100px;
     padding: 100px 0;
     background: #3b3b3b;
     overflow: hidden;
+    text-align: center;
 }
 
-footer section{
+footer section {
     display: block;
     width: 230px;
     margin-right: 60px;
@@ -87,8 +139,6 @@ footer .adress{
     font-weight: normal;
     letter-spacing: 1px;
 }
-
-
 
 footer .footer_nav ul{
     list-style: none;
@@ -112,8 +162,6 @@ footer .footer_nav ul li a{
 footer .footer_nav ul li a:hover{
     border-bottom: 2px solid #FFF;
 }
-
-
 
 footer .copyrights p{
     color: #ebebeb;

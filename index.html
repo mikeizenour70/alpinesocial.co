@@ -2,7 +2,6 @@
 <html lang="en-US">
 
 <head>
-
     <!-- meta tags -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <style type="text/css"></style>
@@ -22,23 +21,22 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/materialize.css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
     <script type="text/javascript" src="js/materialize.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
    <body>
-        <div id="header">
+        <div class="header">
             <div class="row">
                 <div class="twelve columns">
                     <nav class="nav">
                         <img src="image/logo.png" class="nav-logo">
                         <ul>
-                            <li>
-                                Home
-                            </li>
-                            <li>About</li>
-                            <li>Solutions</li>
-                            <li>Pricing</li>
-                            <li>Contact</li>
+                            <a href="#"><li>Home</li></a>
+                            <a href="about"><li>About</li></a>
+                            <a href="solutions"><li>Solutions</li></a>
+                            <a href="pricing"><li>Pricing</li></a>
+                            <a href="contact"><li>Contact</li></a>
                         </ul>
                     </nav>
                 </div>
@@ -47,8 +45,7 @@
                 <div class="text-vcenter twelve columns">
                     <div id="header-text">
                         <h1 style="font-weight: 600;">Elevate your Social Media Management</h1>
-                        <h2>Who are we?</h2>
-                        <h5 style="font-weight: 300;">Based out of Boston, MA, AlpineSocial is a team committed to lead generated results through creative content creation, precise market targeting, and superior knowledge in crafting social campaigns.</h5>
+                        <h5 style="font-weight: 300;">AlpineSocial is a team based out of Boston committed to generating results through innovative content creation, precise market targeting, and superior knowledge in crafting social campaigns.</h5>
                     </div>
                 </div>
 
@@ -70,7 +67,7 @@
     	    	</div>
     	    	<div class="row">
     	    		<div class="medium-10 large-8 small-centered column">
-    		    		<p style="text-align: center;">At AlpineSocial, we see Social Media differently. We focus on ways to promote your brand so it doesn't just seem like advertising on social media, but as an actual solutions to problems people are having in your target market. We work around the clock, developing your brand identity online, reaching your target market, and executing uniquely crafted Social Campaigns to generate more leads for your company, faster.
+    		    		<p class="about">At AlpineSocial, we see Social Media differently. We focus on ways to promote your brand so it doesn't just seem like advertising on social media, but as an actual solutions to problems people are having in your target market. We work around the clock, developing your brand identity online, reaching your target market, and executing uniquely crafted Social Campaigns to generate more leads for your company, faster.
 
 We are a team of highly trained individuals with specialized experience in the industry, across all niches and platforms. We won't be satisfied, until we see your business succeding.
 
@@ -88,8 +85,9 @@ We know how expensive Social Media can be, that's why we take pride in providing
         <div class="row">
     	    <div class="medium-10 large-10 small-centered column">
     			<div class="content">
-              <h1 class="text-center">Solutions</h1>
-              <h4 class="text-center">Set Up &amp;Maintence </h4>
+            <h2>We've got you covered.</h2>
+            <br>
+              <h4 class="text-center">Set Up &amp; Maintence </h4>
     												<hr>
     		    	<div class="row">
     		    		<div class="large-8 small-centered column">
@@ -113,19 +111,12 @@ We know how expensive Social Media can be, that's why we take pride in providing
 
     </div>
     </section>
-
-
-
-
-
-<!-- footer -->
 <footer id="page_footer">
     <div id="register" class="group">
         <div class="split">
-            <!-- !Begin MailChimp Signup Form -->
             <form action="Enter mail chimp link here " method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-                <label for="mce-EMAIL">Please Enter your Email if you wouild like to contact us</label>
-                <input type="text" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email Address"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn">
+                <p class="footer">If you would like to contact us, please enter your email below.</p>
+                <input type="text" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email Address"><input type="submit" value="Contact" name="subscribe" id="mc-embedded-subscribe" class="btn">
                     <div id="mce-responses">
                         <div class="response" id="mce-error-response" style="display:none"></div>
                         <div class="response" id="mce-success-response" style="display:none"></div>
@@ -133,11 +124,12 @@ We know how expensive Social Media can be, that's why we take pride in providing
                     </form>
         </div>
         <div id="social_links" class="split">
-            <a href="http://twitter.com/" title="@stwitterhandel" id="twitter" class="social">Follow @Twitter handel</a>
-            <a href="http://www.facebook.com/" title="become a fan on facebook" id="facebook" class="social facebook">Become a fan</a>
-        </div><!-- /social_links -->
-        <p id="credit"><small>Site designed &amp; developed by <a href="http://sumbits.io">Sum bits</a> for </p>
+            <a href="http://twitter.com/alpinesocial" title="@AlpineSocial" id="twitter" class="social">Follow @AlpineSocial
+            <i class="fa fa-twitter" style="color:white"></i>
+            </a>
+        </div>
+        <br>
+        <p id="credit"><small>Site designed &amp; developed by <a href="http://sumbits.io">sumBits</a></p>
             </footer>
 
 </html>
-
