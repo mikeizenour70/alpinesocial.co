@@ -28,9 +28,24 @@ hr {
   margin-right: auto;
 }
 
+div.contact {
+  height: 80%;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
 h5 {
   font-family: 'Lato';
   color: rgba(255,255,255, 0.8);
+}
+
+h5.black {
+  color: black;
+  margin-top: 30px;
+  margin-bottom: 1px;
 }
 
 a {
@@ -74,6 +89,9 @@ p.footer {
     -webkit-user-drag: none;
 }
 
+div.name {
+}
+
 div.header {
     background: url(../image/header-compressor.jpg) no-repeat center center fixed;
     -webkit-background-size: 100% auto;
@@ -111,70 +129,15 @@ div.header {
     vertical-align: middle;
 }
 
-footer {
+#social_links {
+  margin-top: 30px;
+}
+
+#page_footer {
     width: 100%;
     margin-top: 100px;
-    padding: 100px 0;
+    height: 180px;
     background: #3b3b3b;
     overflow: hidden;
     text-align: center;
-}
-
-footer section {
-    display: block;
-    width: 230px;
-    margin-right: 60px;
-    float: left;
-}
-
-footer section:last-child{
-    margin-right: 0;
-}
-
-footer .adress{
-    color: #fff;
-    font-family: "Quicksand", sans-serif;
-    font-size: 16px;
-    line-height: 32px;
-    font-weight: normal;
-    letter-spacing: 1px;
-}
-
-footer .footer_nav ul{
-    list-style: none;
-}
-
-footer .footer_nav ul li{
-    display: block;
-    margin-bottom: 18px;
-}
-
-footer .footer_nav ul li a{
-    text-decoration: none;
-    color: #fff;
-    font-family: "Quicksand", sans-serif;
-    font-size: 16px;
-    letter-spacing: 1px;
-    padding-bottom: 3px;
-    border-bottom: 1px solid #3b3b3b;
-}
-
-footer .footer_nav ul li a:hover{
-    border-bottom: 2px solid #FFF;
-}
-
-footer .copyrights p{
-    color: #ebebeb;
-    font-family: "Quicksand", sans-serif;
-    font-size: 14px;
-    font-weight: lighter;
-    line-height: 32px;
-    letter-spacing: 1px;
-}
-
-footer .copyrights p a{
-    font-family: "Quicksand", sans-serif;
-    font-weight: bold;
-    color: #ffffff;
-    text-decoration: none;
 }
