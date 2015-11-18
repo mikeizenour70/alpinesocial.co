@@ -93,7 +93,7 @@ div.name {
 }
 
 div.header {
-    background: url(../image/header-compressor.jpg) no-repeat center center fixed;
+    background: url(../image/header-compressor.jpg);
     -webkit-background-size: 100% auto;
     -moz-background-size: 100% auto;
     -ms-background-size: 100% auto;
@@ -140,4 +140,27 @@ div.header {
     background: #3b3b3b;
     overflow: hidden;
     text-align: center;
+}
+
+footer .footer_nav ul{
+    list-style: none;
+}
+
+footer .footer_nav ul li{
+    display: block;
+    margin-bottom: 18px;
+}
+
+footer .footer_nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #3b3b3b;
+}
+
+footer .footer_nav ul li a:hover{
+    border-bottom: 2px solid #FFF;
 }
